@@ -1,0 +1,50 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+button {
+  margin-bottom: 10px;
+}
+
+#close {
+  margin-bottom: 0px;
+  color: gray;
+  font-size: 16px;
+  padding-left: 30px;
+}
+.wrapper:hover {
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+img {
+  margin: 1px;
+  max-width: 500px;
+  max-height: 600px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text-top {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
